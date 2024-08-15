@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  header{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(assets/backg.png);
+    background-size: cover;
+  background-position:50% ;
+    height: 100vh;
+  }
+  nav img{
+    width: 18%;
+  }
+
+  .red-btn{
+    background: rgb(229, 9, 29);
+    color: #fff;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 5px 17px;
+  }
+  .red-btn:hover{
+    background: rgb(193, 17, 25);
+  }
+  .tittle{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #fff;
+    font-size: 60px
+
+}
+/*-------second-------*/
+
+
+
+ 
+
+
+.row{
+  display: flex;
+  width:100% ;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:0;
+}
+.col h2{
+
+  font-size: 40px;
+}
+.col p{
+  font-size: 20px; ;
+}
+
+
+
+
+.img-col{
+  display: flex;
+  align-items: end;
+}
+.col-text   h2{
+  float: left;
+}
+
+
+
+
